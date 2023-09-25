@@ -22,19 +22,21 @@ dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
 ```
 
 ### Create Razor Pages for Students
+```
 dotnet aspnet-codegenerator razorpage Create Create -m Student -dc ApplicationDbContext -sqlite --useDefaultLayout -outDir Pages/Students
 dotnet aspnet-codegenerator razorpage Edit Edit -m Student -dc ApplicationDbContext -sqlite --useDefaultLayout -outDir Pages/Students
 dotnet aspnet-codegenerator razorpage Delete Delete -m Student -dc ApplicationDbContext -sqlite --useDefaultLayout -outDir Pages/Students
 dotnet aspnet-codegenerator razorpage Details Details -m Student -dc ApplicationDbContext -sqlite --useDefaultLayout -outDir Pages/Students
 dotnet aspnet-codegenerator razorpage Index List -m Student -dc ApplicationDbContext -sqlite --useDefaultLayout -outDir Pages/Students
-
+```
 ### Create Razor Pages for Premiums
+```
 dotnet aspnet-codegenerator razorpage Create Create -m Premium -dc ApplicationDbContext -sqlite --useDefaultLayout -outDir Pages/Premiums
 dotnet aspnet-codegenerator razorpage Edit Edit -m Premium -dc ApplicationDbContext -sqlite --useDefaultLayout -outDir Pages/Premiums
 dotnet aspnet-codegenerator razorpage Delete Delete -m Premium -dc ApplicationDbContext -sqlite --useDefaultLayout -outDir Pages/Premiums
 dotnet aspnet-codegenerator razorpage Details Details -m Premium -dc ApplicationDbContext -sqlite --useDefaultLayout -outDir Pages/Premiums
 dotnet aspnet-codegenerator razorpage Index List -m Premium -dc ApplicationDbContext -sqlite --useDefaultLayout -outDir Pages/Premiums
-
+```
 
 ### Credits
 Balta.io [Youtube Channel](https://www.youtube.com/watch?v=fmDYYsSXrKM).
