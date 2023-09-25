@@ -1,0 +1,1 @@
+# RazorPagesNet7_Crud
